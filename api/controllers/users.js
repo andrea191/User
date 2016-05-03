@@ -34,6 +34,10 @@ function getUsers(req, res) {
     var phrase = new Array();
     phrase[0] = "Hello, my name is " + users[0].name;
     phrase[1] = "Hello, my name is " + users[1].name;
+    phrase[2] = "Hello, my name is " + users[2].name;
+    phrase[3] = "Hello, my name is " + users[3].name;
+    phrase[4] = "Hello, my name is " + users[4].name;
+    phrase[5] = "Hello, my name is " + users[5].name;
     console.log(phrase);
     res.json(phrase);
   })
